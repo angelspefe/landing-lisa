@@ -24,7 +24,7 @@ section {
 .bg-image {
   background-image: url('images/bg-lisa.jpg');
   background-size:cover;
-  min-height:40vh;
+  min-height:100vh;
 }
 
 .logo {
@@ -106,6 +106,10 @@ body {
   min-height:100vh;
 }
 } /* this closes the media querie */
+
+.bg-image {
+  min-height:40vh;
+}
 
 @media(max-width:576px) {
 
