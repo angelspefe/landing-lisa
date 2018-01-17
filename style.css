@@ -1,0 +1,116 @@
+/*----------- CSS Reset -----------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*----------- Universal Styles -----------*/
+/* Eg padding on your sections, utility classes, etc. */
+
+section {
+  min-height:100vh;
+  max-height:100vh;
+}
+
+.text-block {
+  padding:5% 10% 5% 10%;
+  text-align: center;
+}
+
+.bg-image {
+  background-image: url('images/bg-lisa.jpg');
+  background-size:cover;
+  min-height:40vh;
+}
+
+.logo {
+  width:300px;
+  padding-bottom:10%;
+}
+
+.lic-logo {
+  width:100px;
+}
+
+
+/*----------- Typography -----------*/
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-size:1.2rem;
+  padding-bottom: 1rem;
+}
+
+h2 {                /*----------- this is the paragraph -----------*/
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  line-height: 1.3;
+  font-size:1.1rem;
+  padding-bottom: 1rem;
+}
+
+h3 {                  /*----------- this is the copyright -----------*/
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  font-size:0.8rem;
+}
+
+p {                 /*----------- this is the launch date -----------*/
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  line-height: 1.3rem;
+  padding:2%;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:0.8rem;
+  letter-spacing: 1px;
+}
+
+
+/*----------- Button -----------*/
+
+.button-block {
+  padding: 8% 0px 10% 0;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding:0.8rem;
+  width:100%;
+  transition:1s;
+  margin:1rem;
+}
+
+.button:hover {
+  background-color: #b1b1b1;
+}
+
+/*----------- MEDIA QUERIES -----------*/
+@media(max-width:768px) {
+
+body {
+  min-height:100vh;
+}
+} /* this closes the media querie */
+
+@media(max-width:576px) {
+
+.text-block {
+ padding: 15% 10% 15% 10%;
+}
+
+} /* this closes the media querie */
