@@ -18,12 +18,12 @@
 <!-- BLOCK OF TEXT -->
       <div class="col-7_sm-12 text-block">
         <img src="{{page.logo_path}}" alt="{{page.title}}" class="logo">
-        <h1>{{page.tagline}}</h1>
-        <h2>{{page.description}}</h2>
+        <h1>{{page.tagline | truncatewords: 10}}</h1>
+        <h2>{{page.description | truncatewords: 50}}</h2>
         <p>{{page.launch}}</p>
         <div class="grid-spaceAround button-block">
           <a href="mailto:{{page.email_address}}" class="col-5_xs-10 button">Contact</a>
-          <a href="{{page.instagram_url}}" class="col-5_xs-10 button" target="_blank">Instagram</a>
+          <a href="{{page.link}}" class="col-5_xs-10 button" target="_blank">Follow</a>
         </div>
         <div class="footer">
           <h3>Created with ♥ by</h3>
