@@ -1,0 +1,6 @@
+defaults:
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
