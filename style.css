@@ -108,7 +108,7 @@ body {
 } /* this closes the media querie */
 
 .bg-image {
-  min-height:40vh;
+  min-height:50vh;
 }
 
 @media(max-width:576px) {
