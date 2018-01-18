@@ -31,7 +31,7 @@
         <p>{{page.launch}}</p>
         <div class="grid-spaceAround button-block">
           <a href="mailto:{{page.email_address}}" class="col-5_xs-10 button">Contact</a>
-          <a href="{{page.link}}" class="col-5_xs-10 button" target="_blank">Follow</a>
+          <a href="{{page.link | absolute_url}}" class="col-5_xs-10 button" target="_blank">Follow</a>
         </div>
         <div class="footer">
           <h3>Created with ♥ by</h3>
