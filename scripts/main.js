@@ -3,8 +3,8 @@ $(document).ready(function(){
 
   $('[name=social_share]').each(function() {
       var $this = $(this);
-      $this.attr('share_url',
-                 $this.attr('share_url').replace('link',
+      $this.attr('href',
+                 $this.attr('href').replace('link',
                                                  document.location.host));
   }
 
