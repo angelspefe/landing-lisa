@@ -31,14 +31,21 @@
         <p>{{page.launch}}</p>
         <div class="grid-spaceAround button-block">
           <a href="mailto:{{page.email_address}}" class="col-5_xs-10 button">Contact</a>
-          <a href="{{page.link | absolute_url}}" class="col-5_xs-10 button" target="_blank">Follow</a>
+          <a href="{{page.link}}" class="col-5_xs-10 button" target="_blank">Follow</a>
+          <a name="social_share" type="button" share_url="{{page.link}}">Follow</a>
         </div>
         <div class="footer">
           <h3>Created with ♥ by</h3>
           <a href="http://loveiscreative.com"><img src="/images/love-is-creative-logo.png" alt="love is creative logo" class="lic-logo" target="_blank"></a>
+
         </div>
       </div>
 
     </section>
+
+<!-- - - - - - - - - - - jQuery - - - - - - - - - - -  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="/scripts/main.js"></script>
+
   </body>
 </html>
